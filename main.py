@@ -12,9 +12,9 @@ from tglogging import TelegramLogHandler
 
 # Config 
 class Config(object):
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7004904928:AAHbSMCsku6d_qg0-22Ah0dv2CYzIF3Oe0E")
-    API_ID = int(os.environ.get("API_ID",  "22100695"))
-    API_HASH = os.environ.get("API_HASH", "0e8f93300ccbbcd56066e6d790b0d3b2")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    API_ID = int(os.environ.get("API_ID",  ""))
+    API_HASH = os.environ.get("API_HASH", "")
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     SESSIONS = "./SESSIONS"
 
@@ -57,7 +57,7 @@ class Store(object):
 
 # Format
 class Msg(object):
-    START_MSG = "**/ankit**"
+    START_MSG = "**/sameer**"
 
     TXT_MSG = "Hey <b>{user},"\
         "\n\n`I'm Multi-Talented Robot. I Can Download Many Type of Links.`"\
